@@ -1,0 +1,69 @@
+/* Design Tokens - Auto-generated */
+/* Do not edit directly - modify design/tokens.json instead */
+
+/* === PRIMITIVES === */
+:root {
+  --primitive-color-cream-50: #FBF3E6;
+  --primitive-color-cream-100: #F3E4C9;
+  --primitive-color-cream-300: #E2CBA0;
+  --primitive-color-ink-900: #241A12;
+  --primitive-color-ink-700: #4A392B;
+  --primitive-color-ink-500: #7A6650;
+  --primitive-color-terracotta-400: #DD7248;
+  --primitive-color-terracotta-500: #C1502E;
+  --primitive-color-terracotta-700: #8A3820;
+  --primitive-color-terracotta-900: #4A2013;
+  --primitive-color-teal-600: #2B6960;
+  --primitive-color-teal-800: #16332E;
+  --primitive-font-display: var(--font-dm-serif), 'DM Serif Display', Georgia, serif;
+  --primitive-font-sans: var(--font-dm-sans), 'DM Sans', system-ui, sans-serif;
+  --primitive-motion-duration-micro: 180ms;
+  --primitive-motion-duration-base: 320ms;
+  --primitive-motion-duration-reveal: 1.1s;
+  --primitive-motion-duration-cine: 1.8s;
+  --primitive-motion-ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --primitive-motion-ease-cine: cubic-bezier(0.65, 0, 0.35, 1);
+  --primitive-tracking-display: -0.01em;
+  --primitive-tracking-label: 0.26em;
+}
+
+/* === SEMANTIC === */
+:root {
+  --background: #FBF3E6;
+  --foreground: #241A12;
+  --card: #F3E4C9;
+  --card-foreground: #241A12;
+  --muted: #F3E4C9;
+  --muted-foreground: #4A392B;
+  --accent: #E2CBA0;
+  --accent-foreground: #241A12;
+  --border: #E2CBA0;
+  --ring: #C1502E;
+  --radius: 1.05rem;
+  --ember: #C1502E;
+  --ember-dim: #4A2013;
+  --teal: #2B6960;
+  --surface-line: #E2CBA0;
+  --type-display: var(--font-dm-serif), 'DM Serif Display', Georgia, serif;
+  --type-body: var(--font-dm-sans), 'DM Sans', system-ui, sans-serif;
+  --ease-reveal: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-cine: cubic-bezier(0.65, 0, 0.35, 1);
+  --duration-micro: 180ms;
+  --duration-base: 320ms;
+  --duration-reveal: 1.1s;
+  --tracking-display: -0.01em;
+  --tracking-label: 0.26em;
+}
+
+/* === COMPONENTS === */
+:root {
+  --hero-title-size: clamp(2.7rem, 7.2vw, 6rem);
+  --hero-title-leading: 1.03;
+  --hero-glow: radial-gradient(ellipse 65% 50% at 50% 100%, rgba(221, 114, 72, 0.28), rgba(74, 32, 19, 0.12) 45%, transparent 72%);
+  --hero-vignette: linear-gradient(to top, rgba(24, 15, 10, 0.96) 0%, rgba(24, 15, 10, 0.32) 42%, rgba(24, 15, 10, 0.55) 100%);
+  --button-primary-bg: #C1502E;
+  --button-primary-fg: #FBF3E6;
+  --button-primary-hover-bg: #8A3820;
+  --button-ghost-border: rgba(36, 26, 18, 0.22);
+  --button-ghost-hover-border: #C1502E;
+}
