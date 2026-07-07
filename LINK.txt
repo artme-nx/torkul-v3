@@ -1,0 +1,5 @@
+Klijent: Torkul (Pizzeria & Konoba), Sveti Filip i Jakov
+
+Live URL: https://artme-nx.github.io/torkul-v3/
+Repo: https://github.com/artme-nx/torkul-v3
+Datum objave: 2026-07-07
